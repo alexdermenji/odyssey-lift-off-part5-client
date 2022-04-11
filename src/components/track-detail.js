@@ -30,6 +30,8 @@ const TrackDetail = ({ track }) => {
     numberOfViews,
   } = track;
 
+  console.log(track);
+
   return (
     <ContentSection>
       <CoverImage src={thumbnail} alt="" />
